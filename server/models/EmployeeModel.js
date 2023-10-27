@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('../config/db')
+const db = require('../config/db');
 const employeeSchema = new db.Schema({
     name: {
         type: String,
@@ -23,7 +23,7 @@ const employeeSchema = new db.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Department',
       },
-      
+
 });
 
 const Employee = db.model('Employee', employeeSchema);
