@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('../config/db');
+const db = require('../config/Data');
 const employeeSchema = new db.Schema({
     name: {
         type: String,

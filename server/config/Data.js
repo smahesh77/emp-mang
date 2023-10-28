@@ -4,7 +4,7 @@ const app = express()
 require('dotenv').config()
 
 // listen for request
-const connection = mongoose.connect(process.env.URI)
+const connection = mongoose.connect(process.env.URL)
    .then((result) => {
       console.log('Connected')
    })
