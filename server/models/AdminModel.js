@@ -1,4 +1,4 @@
-const db = require('../config/db')
+const db = require('../config/Data')
 
 
 const userModel = db.model('user', new db.Schema({

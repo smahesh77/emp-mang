@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const db = require('../config/Data');
 const departmentSchema = new mongoose.Schema({
     name: {
         type: String,
